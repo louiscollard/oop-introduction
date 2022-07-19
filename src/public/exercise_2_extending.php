@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-include './exercise_1.php';
+include './exercise_1_classes.php';
 
 /* EXERCISE 2
 TODO: Make class beer that extends from Beverage.
@@ -38,4 +38,8 @@ $duvel = new Beer("blond", 3.5, "Duvel", 8.5);
 echo "</br>";
 echo $duvel->getInfo();
 echo "</br>";
+echo $duvel->color;
+echo "</br>";
 echo $duvel->getAlcoholPercentage();
+echo "</br>";
+echo $duvel->alcoholPercentage;
