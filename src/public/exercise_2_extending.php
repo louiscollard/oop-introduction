@@ -28,7 +28,7 @@ class Beer extends Beverage
         $this->name = $name;
         $this->alcoholPercentage = $alcoholPercentage;
     }
-    public function getAlcoholPercentage()
+    public function getAlcoholPercentage(): float
     {
         return $this->alcoholPercentage;
     }
